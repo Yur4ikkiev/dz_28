@@ -1,0 +1,52 @@
+body *{
+margin: 0;
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+}
+
+h2 {
+    font-size: 24px;
+    display: flex;
+}
+
+#container {
+ padding: 1% 0;
+ width: 90%;
+ margin: 0 auto;
+}
+
+.category__group {
+    display: flex;
+    padding: 1% 0 1.5%;
+    border-bottom: 2px dashed rgba(224, 222, 222, 0.826);
+    margin-bottom: 1.5%;
+   
+}
+
+.category__box {
+    width: 20%;
+    background-color: rgba(224, 222, 222, 0.826);
+    margin: 0 auto;
+    border-radius: 6px;
+    padding-bottom: 2%;
+
+}
+
+.category:last-child div div{
+    margin: 0 38px;
+}
+
+.category__img {
+    text-align: center;
+    padding: 5% 6%;
+}
+
+img {
+    width: 62px;
+    margin: 0 auto;
+}
+
+p {
+    text-transform: capitalize;
+    padding: 1% 8%;
+  }
